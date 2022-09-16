@@ -47,5 +47,9 @@ jobs:
           docker-compose --profile e2e up -d client
           docker-compose --profile e2e run client npm run test
 
+      - name: build app
+        run: |
+          docker-compose --profile e2e run client gulp build
+
       - name: stop the containers
         run: docker-compose --profile e2e down
