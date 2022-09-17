@@ -116,6 +116,16 @@ const deploy = (cb) => {
   cb();
 };
 
+/*
+
+deploy to OVH webhosting:
+
+```
+echo -n "cd www\nlcd client/dist\nput -rf *" | sftp pydwrsa@ftp.cluster051.hosting.ovh.net
+```
+
+ */
+
 exports.javascript = javascript;
 exports.worker = worker;
 exports.public = public;

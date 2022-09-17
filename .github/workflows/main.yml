@@ -49,6 +49,9 @@ jobs:
 
       - name: build app
         run: |
+          cat <<EOF >> ./client/.env
+          NODE_ENV=production
+          EOF
           docker-compose --profile e2e run client gulp build
 
       - name: stop the containers
