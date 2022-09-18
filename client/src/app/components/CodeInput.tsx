@@ -147,7 +147,7 @@ export function CodeInputContent(props: ContentProps) {
       <Text
         data-testid="code-error-message"
         sx={(theme) => ({
-          color: theme.colors["warning-red"][6],
+          color: theme.colors["red"][6],
         })}
         align="center"
         size="sm"

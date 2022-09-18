@@ -29,7 +29,7 @@ const useStyles = createStyles((theme) => ({
     width: "25%",
   },
   dropzone: {
-    backgroundColor: theme.colors["light-grey"][6],
+    backgroundColor: theme.colors["gray"][6],
     display: "flex",
     padding: 32,
     flex: 1,
@@ -48,7 +48,7 @@ const useStyles = createStyles((theme) => ({
     justifyContent: "center",
   },
   dropzoneLayerTop: {
-    backgroundColor: theme.colors["tertiary"][6],
+    backgroundColor: theme.colors["orange"][6],
     opacity: 0,
     transition: "opacity 0.2s",
     height: 0,
@@ -61,7 +61,7 @@ const useStyles = createStyles((theme) => ({
     visibility: "visible",
   },
   dropzoneLayerBottom: {
-    border: `4px dashed ${theme.colors["dark-grey"][6]}`,
+    border: `4px dashed ${theme.colors["gray"][6]}`,
   },
 }));
 

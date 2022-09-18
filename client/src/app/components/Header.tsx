@@ -15,7 +15,7 @@ const useStyles = createStyles((theme) => ({
   headerTextSuper: {
     fontWeight: "lighter",
     fontSize: 20,
-    color: theme.colors["dark-grey"][6],
+    color: theme.colors["gray"][6],
     position: "relative",
     bottom: 7,
   },

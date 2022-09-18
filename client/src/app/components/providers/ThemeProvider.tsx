@@ -50,7 +50,7 @@ export default function ThemeProvider(props: Props) {
                   backgroundColor:
                     params.color &&
                     theme.fn.lighten(theme.colors[params.color][6], 0.5),
-                  color: theme.colors["darker-grey"][6],
+                  color: theme.colors["gray"][6],
                 },
                 "&:hover:not([data-disabled])": {
                   backgroundColor:
@@ -86,11 +86,11 @@ export default function ThemeProvider(props: Props) {
           TextInput: {
             styles: (theme) => ({
               input: {
-                backgroundColor: theme.colors["light-grey"][6],
+                backgroundColor: theme.colors["gray"][6],
                 border: "none",
                 height: 50,
                 "&::placeholder": {
-                  color: theme.colors["darker-grey"][6],
+                  color: theme.colors["gray"][6],
                 },
               },
             }),
